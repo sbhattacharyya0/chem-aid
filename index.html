@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <style>
+            body {
+                background-color:white;
+            }
+            .button {
+                background-color:black;
+                color:white;
+                font-family:'Courier New', Courier, monospace;
+                text-align:center;
+                border-color:white;
+                border-width:10px;
+                padding:15px;
+            }
+            #main {
+                width:100vw;
+                height:100vh;
+                display:grid;
+            }
+            .button:hover {
+                animation-name:hover;
+                animation-duration:.8s;
+                background-color:grey;
+            }
+            @keyframes hover {
+                from {background-color:black};
+                to {background-color:grey};
+            }
+            a {
+                text-decoration:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <a href="bunsen-burner.html" class="button">Bunsen Burner</a>
+            <a href="buret.html" class="button">Buret</a>
+            <a href="clay-triangle.html" class="button">Clay Triangle</a>
+        </div>
+    </body>
+</html>
